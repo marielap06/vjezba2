@@ -9,7 +9,7 @@ padding: 50px 0;
 height: 100%;
 width: 100%;
 color: white;
-font-family: 'Courier New', Courier, monospace;
+font-family: Nunito;
 
 }
 .billboard_menu{
@@ -34,7 +34,7 @@ font-family: 'Courier New', Courier, monospace;
 }
 .dropbtn {
     background-color: lightgray;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Nunito;
     text-align: center;
     color: black;
     padding: 16px;
@@ -49,14 +49,15 @@ font-family: 'Courier New', Courier, monospace;
     padding: 20px;
     background-color: lightgray;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Nunito;
+    ;
   }
   
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Nunito;
     display: none;
     position: absolute;
     background-color:lightgrey;
@@ -85,7 +86,7 @@ font-family: 'Courier New', Courier, monospace;
 
   .content{
       text-align: left;
-      font-family: 'Courier New', Courier, monospace;
+      font-family: Nunito;
       margin-left: 5cm;
       margin-right: 15cm;
   }
