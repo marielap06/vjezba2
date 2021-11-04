@@ -1,35 +1,75 @@
-html, body {
+html{
+  height: 100%;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, textarea {
     margin: 0;
-    padding: 0;
+    padding: 0.05px;  
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background: transparent;
+}
+
+
+.billboard_links{   /* ovo bi morala pomaknut lijevo, jedino sto mi pada na pamet je da odvojim ovo da svaki link ima svoje */
+  text-align: left;
+  font-size: 13px;
+  background-color: purple;
+  color: white;
+  font-family: Nunito;
+  text-decoration: none;
+  margin: 0;
+  padding-top: 10px;
 }
 .main_billboard {
-background-color:  purple;
-margin: 0;
-padding: 50px 0;
-height: 100%;
-width: 100%;
-color: white;
-font-family: Nunito;
-
-}
-.billboard_menu{
-    text-align: left;
-    font-size: medium;
-}
-.billboard_links{
-    color: white;
-    text-decoration: none;
-}
+  background-color:  purple;
+  margin: 0;
+  padding: 50px 0;
+  color: white;
+  font-family: Nunito;
+  text-align: center;
+  
+  }
 .billboard_title{
-    text-align: center;
-    font-size: 250%;
+  font-size: 40px;
+  font-weight: bold;
 }
+
 .billboard_text{
-    color: white;
-    margin-left: 10cm;
-    margin-right: 10cm;
-    text-align: center;
-    font-size: large;
+  
+  margin-top: 20px;
+  width: 45%;
+  margin-left: 27%;
+  font-size: 20px;
+  
     
 }
 .dropbtn {
@@ -85,11 +125,25 @@ font-family: Nunito;
   .dropdown:hover .dropbtn {background-color: lightgrey;}
 
   .content{
-      text-align: left;
-      font-family: Nunito;
-      margin-left: 5cm;
-      margin-right: 15cm;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 15px;
+    justify-content: space-around;
+    width: 100%;
+    font-family: Nunito;
+      
+  }
+  .main_content{
+    flex-basis: 40%;
+    
   }
   .pod_naslovi {
     color: purple;
+   
+  }
+
+  .side_content{
+    flex-basis: 30%;
+    
   }
